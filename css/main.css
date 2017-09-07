@@ -10,7 +10,7 @@ p{
 }
 /* If javascript is enabled, we we'll see class js-enabled*/
 
-.no-borderradius p.borderradius{
+.no-borderradius p.borderradius-disabled{
     border: 40px solid;
     border-radius: 40px;
     color:green;
