@@ -4,12 +4,14 @@ p{
 
 .borderradius p.borderradius-enabled{
 	display:block;
+	border: 4px solid;
+    border-radius: 25px;
 }
 /* If javascript is enabled, we we'll see class js-enabled*/
 
-.no-borderradius p.js-borderradius{
-    border: 2px solid;
-    border-radius: 25px;
+.no-borderradius p.borderradius{
+    border: 40px solid;
+    border-radius: 40px;
 }
 }
 
