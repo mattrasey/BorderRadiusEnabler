@@ -11,8 +11,7 @@ p{
 /* If javascript is enabled, we we'll see class js-enabled*/
 
 .borderradius p.borderradius-disabled{
-    border: 40px solid;
-    border-radius: 40px;
+	display:block;
     color:green;
 }
 }
