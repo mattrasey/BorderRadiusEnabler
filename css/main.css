@@ -1,0 +1,25 @@
+p{
+	display:none;
+}
+
+.borderradius p.borderradius-enabled{
+	display:block;
+}
+/* If javascript is enabled, we we'll see class js-enabled*/
+
+.no-borderradius p.js-borderradius{
+	display:block;
+}
+
+/* If you disable JavaScript inside Dev Tools, you will see the sentence stating you are NOT using JavaScript*/
+
+ul.columns{
+	columns:3;
+}
+
+.no-csscolumns ul.columns li{
+	float:left;
+	width:33%;
+}
+
+/* If your browser does not support css columns (caniuseit.com), it will still make columns*/
