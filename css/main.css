@@ -1,6 +1,4 @@
-p{
-	display:none;
-}
+
 
 .borderradius p.borderradius-enabled{
 	display:block;
@@ -10,7 +8,7 @@ p{
 }
 /* If javascript is enabled, we we'll see class js-enabled*/
 
-.borderradius p.borderradius-disabled{
+.no-borderradius p.borderradius-disabled{
 	display:block;
     color:green;
 }
