@@ -8,6 +8,9 @@ p{
 	border-radius: 25px;
 	color:blue;
 	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
 	box-shadow: 10px 10px 25px 0px rgba(90,0,0,0.6);
 }
 
