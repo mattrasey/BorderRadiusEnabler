@@ -6,7 +6,8 @@ p{
 	display:block;
 	border: 2px solid;
 	border-radius: 25px;
-	color:red;
+	color:blue;
+	border-top-left-radius:5px;
 }
 
 
