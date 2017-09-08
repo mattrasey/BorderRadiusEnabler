@@ -4,7 +4,12 @@ p{
 
 .js p.js-enabled{
 	display:block;
+	border: 2px solid;
+	border-radius: 25px;
+	color:red;
 }
+
+
 /* If javascript is enabled, we we'll see class js-enabled*/
 
 .no-js p.js-disabled{
