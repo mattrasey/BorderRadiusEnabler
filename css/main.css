@@ -2,7 +2,7 @@ p{
 	display:none;
 }
 
-.js p.js-enabled{
+.borderradius p.borderradius-enabled{
 	display:block;
 	border: 2px solid;
 	border-radius: 25px;
@@ -14,8 +14,9 @@ p{
 
 /* If javascript is enabled, we we'll see class js-enabled*/
 
-.no-js p.js-disabled{
+.no-borderradius p.borderradius-disabled{
 	display:block;
+	color:green;
 }
 
 /* If you disable JavaScript inside Dev Tools, you will see the sentence stating you are NOT using JavaScript*/
