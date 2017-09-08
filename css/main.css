@@ -19,7 +19,8 @@ p{
 
 .no-borderradius p.borderradius-disabled{
 	display:block;
-	color:green;
+	box-shadow: 10px 10px 25px 0px rgba(90,0,0,0.6);
+	color:blue;
 }
 
 /* If you disable JavaScript inside Dev Tools, you will see the sentence stating you are NOT using JavaScript*/
